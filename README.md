@@ -26,3 +26,44 @@
     return 0;                           
     }
 
+*Objective-C es un lenguaje case sensitive, esto significa que main es diferente de Main. Por otro lado, no es sensible a espacios en blanco por lo que la función main se podría declarar también de la siguiente manera:*
+
+        int main(int argc,
+            const char * argv[])
+        ...
+        
+##Ejecutando la aplicacion
+
+*Objective-C es un lenguaje que debe ser compilado. A diferencia de Javascript, PHP, Ruby o Python, que son lenguajes interpretados.*
+
+*Ejecucion*
+
+        > Ejemplo 1 - Objective-C[3812:303] Hello, World!
+
+#Variables
+
+*la variables se agsinan de la siguiente manera:*
+
+        tipoDeDato NombreDeVariable = Valor;
+
+*Todas las variables en Objective-C se declaran igual que en C. La estructura de la definición es la siguiente:*
+
+        int myVariable = 10;
+        
+*Los tipos de datos primitivos en Objective-C son los mismos que en C solo que incluimos uno más:*
+
+* int: para numeros enteros
+* float: para puntos flotante (valores con decimales)
+* double: un punto flotante de mayor precisión (dobla la cantidad de decimales de float)
+* char: para carateres simples
+* BOOL: este es el que incluimos que no tenia C, es para valores booleanos (verdadero o falso, en objective-C: YES o NO)
+
+#Condicionales
+
+        if (a == b){
+            //do this
+        }
+        else{
+            that this
+        }
+
