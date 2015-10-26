@@ -125,10 +125,41 @@
         Persona.m //(implementación)
 
 *Persona.h (Encabezado) Debería contener lo siguiente:*
+*En los archivos .h (Encabezados) de las clases anunciamos los atributos y métodos que serán públicos.*
 
         #import <Foundation/Foundation.h>
         
         @interface Persona : NSObject
         
         @end
+        
+*Persona.m (Implementacion), encontraremos el siguiente código:*
+*Todo lo que coloquemos en el archvo .m de una clase y no esté declarado en el .h, será privado.*
 
+        #import "Persona.h"
+        
+        @implementation Persona
+        
+        @end
+        
+#Apuntadores
+
+*Los apuntadores son variables que hacen referencia a objetos. Estudiemos la estructura de un apuntador. Vamos al archivo main.m e importamos nuestra clase Persona (en cualquier lugar antes de la función main). Debe lucir así:*
+
+        #import "Persona.h"
+        
+        #import <Foundation/Foundation.h>
+        
+        int main(int argc, const char * argv[])
+        {
+            @autoreleasepool{
+                
+                //insert code here...
+                NSLog(@"Hello, World!");
+            }
+            return 0;
+        }
+        
+*Ahora borramos todo lo que esté dentro del bloque @autoreleasepool ya que no lo vamos a necesitar y agregamos el siguiente código:*
+
+        Persona *julian = [[Persona alloc] init];
