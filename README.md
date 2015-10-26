@@ -113,6 +113,22 @@
         }
         
 
+#Clases
 
+*En Objective-C las clases son representadas mediante el uso de dos archivos, en lugar de uno como Java y C#, estos archivos son llamados encabezado e implementación, y llevan las extensiones .h y .m respectivamente.*
+
+*Vamos a crear una clase Persona e indicamos que es una subclase de NSObject. En Objective-C, todas las clases heredan de NSObject, así como en java todas de Object.*
+
+* Archivos creados:
+
+        Persona.h //(Encabezado)
+        Persona.m //(implementación)
+
+*Persona.h (Encabezado) Debería contener lo siguiente:*
+
+        #import <Foundation/Foundation.h>
         
+        @interface Persona : NSObject
+        
+        @end
 
