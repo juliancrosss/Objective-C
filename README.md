@@ -67,6 +67,7 @@
             that this
         }
 
+*Switch*
 
         switch(numero){
             case 1:
@@ -80,3 +81,38 @@
                 // None of the above
                 break;
         }
+
+#Ciclos
+
+*Igualmente los mismo de C:*
+
+##Do
+
+        do {
+            //do something
+        }while (a > b);
+        
+##While
+
+        while(a>b){
+            //loop
+        }
+        
+##For 
+
+        for (int i= 0; i < 10; i++){
+            //loop
+        }
+
+##For in o For each
+
+*Recorrer colecciones de objectos*
+
+        for (NSString *name in users){
+            //do something with the user 
+        }
+        
+
+
+        
+
