@@ -141,6 +141,36 @@
         @implementation Persona
         
         @end
+
+##Instancia de una clase
+
+*Instanciando una clase y aplicando metodos*
+
+        yourCar = [Car new]; //get a new car
+        [yourCar drive];
+        [yourCar wash];
+        currentMiLeage = [yourCar odometer];
+
+#Metodos
+*Aplicando un metodo a una clase o instancia de la clase*
+
+        
+    [ ClassOrInstance method ];
+    
+*Metodo con argumentos*
+
+    [yourCar setSpeed: 55]; // set the speed to 55 mph
+    
+*Otros ejemplos*    
+    
+    [myWindow erase]; Clear the window
+    theArea = [myRect area]; Calculate the area of the rectangle
+    [userText spellCheck]; Spell-check some text
+    [deskCalculator clearEntry]; Clear the last entry
+    [favoritePlaylist showSongs]; Show the songs in a playlist of favorites
+    [phoneNumber dial]; Dial a phone number
+    [myTable reloadData]; Show the updated table’s data
+    n = [aTouch tapCount]; Store the number of times the display was tapped
         
 #Apuntadores
 
