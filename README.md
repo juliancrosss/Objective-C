@@ -163,3 +163,44 @@
 *Ahora borramos todo lo que esté dentro del bloque @autoreleasepool ya que no lo vamos a necesitar y agregamos el siguiente código:*
 
         Persona *julian = [[Persona alloc] init];
+        
+##NSLog
+ 
+*Muestra un cadena o logs*
+*Imprimiendo en una linea nueva*
+
+        NSLog(@"Testing...\n..1\n..2\n...3");
+        
+        * Resultado
+        
+        Testing...
+        ..1
+        ..2
+        ...3
+
+*Imprimiendo con variables*
+
+        int suma;
+        suma = 50 + 25;
+        NSLog(@"La suma entre 50 y 25 es %i", suma);
+        
+        *Resultado
+        
+        La suma entre 50 y es es 75
+        
+*Ejemplo 2*
+
+        int value1, value2, suma;
+        
+        value1 = 50;
+        value2 = 25;
+        suma = value1 + value2;
+        
+        NSLog (@"La suma de %i y %i es %i",value1, value2, suma);
+        
+        * Resultado
+        
+        La suma de 50 y 25 es 75
+        
+
+        
