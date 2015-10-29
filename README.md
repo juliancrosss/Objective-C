@@ -235,7 +235,10 @@
         
 #Clase
 
+##@interface
+
 *Describiendo @interface session de la clase*
+*@interface describe la clase, los datos componentes y los metodos*
         
         //Program to work with fractions class -version
         #import <Foundation/Foundation.h>
@@ -250,7 +253,9 @@
         -(void) setDenominator: (int) d;
         @end
 
+##@implementation
 
+*@implementation*
         
 
         
