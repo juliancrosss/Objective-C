@@ -255,7 +255,21 @@
 
 ##@implementation
 
-*@implementation*
-        
+*La seccion de  @implementation contiene el codigo que implementa los metodos de la @interface*
+
+
+##Seccion del Programa
+
+*La seccion del programa contiene el codigo del programa para llevar el proposito*
+
+*Cada de estas secciones son parte de Objective-C porgrama.incluso aunque usted no podria no necesitar para escribir cada una de estas secciones*
+
+* @interface
+* @implementacion
+* Program Section
+
+#la seccion @interface
+
+*Cuando usted define una nueva clase, usted tiene que hacer unas pocas cosas. Primero, usted tiene que decir al compilador de Objectivo-C donde la clase proviene,eso significa que usted tiene que nombralo como Clase Padre.*
 
         
